@@ -1,0 +1,25 @@
+# Private configuration and credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+
+# Environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.matplotlib/
+
+# Inputs and detailed local backtest outputs: do not redistribute automatically
+/data/raw/
+*.csv
+!research_summary/*.csv
+/local_results/
+/private_results/
+/private/
+/application_materials/
+/security/local_*.json

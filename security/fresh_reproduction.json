@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "verification_date": "2026-10-25",
+  "python_version": "3.14.3",
+  "verification_environment": "Existing isolated environment; all installed runtime and test versions checked against the October 24 lock; no fresh environment installation claimed",
+  "pip_check_passed": true,
+  "tests_passed": 32,
+  "independent_accounting_checks": 18,
+  "network_connections_blocked_during_backtest": true,
+  "credential_environment_variables_removed": true,
+  "authorized_input_fingerprint_matches": true,
+  "performance_csv_byte_identical": true,
+  "cost_sensitivity_csv_byte_identical": true,
+  "full_period_trades": 120,
+  "full_period_net_pips": -1064.8,
+  "raw_data_copied": false,
+  "private_results_outside_candidate": true,
+  "methodology_and_findings_unchanged": true
+}

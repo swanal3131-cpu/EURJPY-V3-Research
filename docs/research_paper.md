@@ -2,7 +2,7 @@
 
 Fixed SMA20 and SMA80 rules on four-hour candles from 2015 through 2019
 
-Independent student quantitative finance research | October 17, 2026
+Alex Swano | Independent Finance Research | October 17, 2026
 
 ## Abstract
 
@@ -116,4 +116,4 @@ Historical EUR/JPY price data was provided by [London Strategic Edge](https://lo
 
 Project evidence: docs/ACCOUNTING_REVIEW.md; research_summary/performance_summary.csv; security/fresh_reproduction.json. Reproduction requires an appropriately authorized local CSV; data is not redistributed.
 
-AI assistance was used in implementation and editorial preparation. Student authorship claims should reflect work the student can personally explain and substantiate.
+I chose the research direction and simplified moving-average approach, reviewed and interpreted the results, and refined the paper. AI tools assisted with Python implementation, test execution, computational validation, and editorial preparation.

@@ -1,8 +1,22 @@
 # Release checklist
 
+## Current publication status — October 28, 2026
+
+The separate repository `swanal3131-cpu/EURJPY-V3-Research` is now **public** and linked from the college research portfolio. The private-staging and owner-approval-pending statements in the October 25 record below describe the preparation stage; they are not current publication blockers. This cleanup is authorized by the owner's request to finish the public portfolio documentation. The private master and private supporting correspondence remain outside this release.
+
+The October 25 reproduction record used an **existing isolated Python 3.14.3 environment**, with all installed runtime/test versions checked against the lock and `pip check` passing. It does not establish a fresh installation. The README now uses the same description. No new environment installation, dependency/security refresh, model execution or result reproduction is claimed for this documentation cleanup.
+
+The October 28 paper update added the student byline and clarified AI assistance in the Markdown and PDF. Those editorial changes postdate the historical statement below that the candidate paper retained its earlier bytes. This cleanup changes only README.md, DATA_PROVENANCE.md and this checklist; research code, parameters, figures, results, and dated verification artifacts are preserved.
+
+The private provider correspondence was not independently re-authenticated in this cleanup. The existing project-specific permission record remains conditional on relevant credit; no broader data rights, upstream clearance, endorsement or new software license are established. See [data provenance](DATA_PROVENANCE.md).
+
+## Historical release-preparation record — October 25, 2026
+
+The following dated record is retained for traceability. Its publication gate and pending status have been superseded by the current status above; its test and security results remain historical evidence, not newly executed checks.
+
 **Release candidate prepared October 25, 2026. Public publication is awaiting the owner's explicit approval.** The private master remains `swanal3131-cpu/EURJPY-Trading`. The separate release repository is `swanal3131-cpu/EURJPY-V3-Research`, staged privately. No public visibility, public Release, public Pages site or college portfolio is authorized by this preparation.
 
-## Private master and October 24 remediation
+### Private master and October 24 remediation
 
 The private master was verified on October 25 at `6635133c4dbf31ba4738e805dfd655823e6720d6` on `main`, with four commits. Its earlier commits, files and history are preserved. The October 19 upload was an earlier verification, not a new upload or test performed on October 25.
 
@@ -10,7 +24,7 @@ The October 24 commit completed the dependency remediation: Pillow changed from 
 
 The public candidate was exported from the exact 38 tracked files at that private-master commit. No `.git` directory, Git objects, original history, ignored files or untracked files were copied. A new `main` history uses the owner's verified GitHub numeric noreply identity for both author and committer. Do not publish the private master or merge its ancestry into the release repository.
 
-## Validation performed October 25 on the candidate
+### Validation performed October 25 on the candidate
 
 | Check | Result and scope |
 |---|---|
@@ -23,7 +37,7 @@ The public candidate was exported from the exact 38 tracked files at that privat
 | Paper, charts and links | Five-page PDF, four PNG figures, decoded metadata/content, internal links and documented reproduction commands are checked. The paper and all figures retain their private-release bytes. |
 | Research integrity | Strategy, parameters, execution/accounting code, costs, findings, conclusions, provider attribution and both aggregate CSVs are unchanged. |
 
-## Content and rights review
+### Content and rights review
 
 | Category | Treatment |
 |---|---|
@@ -35,7 +49,7 @@ The public candidate was exported from the exact 38 tracked files at that privat
 | Provider permission | Existing project-specific permission for the requested code, derived charts, statistics and paper is documented with relevant credit. No broader data rights or endorsement are implied. Supporting correspondence stays private. See [provenance](DATA_PROVENANCE.md). |
 | Software license | **No LICENSE file and no software license assigned.** A specific license requires a separate owner decision. |
 
-## Publication gate
+### Historical publication gate (October 25; superseded)
 
 - Preserve the private master and private supporting correspondence.
 - Confirm the final 38-file manifest, candidate commit, fresh history and private staging-repository tree match the release review.

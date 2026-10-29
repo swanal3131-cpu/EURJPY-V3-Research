@@ -20,7 +20,7 @@ Each four-hour candle summarizes opening, highest, lowest and closing prices. Th
 
 Signals use completed candles and execute changes at the next observed UTC four-hour opening. The backtest simulates these rules chronologically, trading one EUR at a time. Estimated costs are 1.5 pips per round trip, divided between entry and exit; one EUR/JPY pip is 0.01 JPY per EUR. Results use fixed-unit P&L, not leveraged account returns. SMA20/SMA80 are unchanged across all periods; no machine learning or optimization is used.
 
-Historical EUR/JPY market data provided by [London Strategic Edge](https://londonstrategicedge.com). Derived research results and visualizations are presented with permission and attribution. Raw historical price data is not redistributed. This project-specific permission does not imply endorsement or broader data rights.
+Historical EUR/JPY market data is attributed to [London Strategic Edge](https://londonstrategicedge.com). The project's private permission record is described in [data provenance](docs/DATA_PROVENANCE.md); it reports support approval for the requested derived materials, conditional on relevant credit. Raw historical price data is not redistributed. This does not establish broader data rights or provider endorsement.
 
 ## Results
 
@@ -68,7 +68,7 @@ Read the [complete five-page paper](docs/EURJPY_V3_research_paper.pdf) or the [M
 
 ## Reproducing the experiment
 
-Verified on **Python 3.14.3 on Windows**, using a fresh isolated environment. Main packages are pandas, numpy, matplotlib and pytest. `requirements-lock.txt` pins the tested runtime and test dependencies; `requirements.txt` lists runtime-only packages.
+The **October 25, 2026** verification used **Python 3.14.3 on Windows in an existing isolated environment**. Installed runtime and test versions matched every lock pin and `pip check` passed; this was not a fresh environment installation. See the dated [reproduction record](security/fresh_reproduction.json) and [release checklist](docs/RELEASE_CHECKLIST.md). Main packages are pandas, numpy, matplotlib and pytest. `requirements-lock.txt` pins the tested runtime and test dependencies; `requirements.txt` lists runtime-only packages. The commands below describe how a reader can create a new environment; no new installation or research rerun was performed for the October 28 documentation cleanup.
 
 From this directory in PowerShell:
 
@@ -88,7 +88,7 @@ These commands keep the environment and full results outside the release candida
 
 This is historical simulation, not live trading. Costs are estimates; funding/swap, variable spreads, latency and actual execution are not fully modeled. The sample is limited, sampled drawdown can miss worse intrabar losses, and prior work inspected 2019 structure, so it is not an untouched holdout. Timestamp/quote metadata remain uncertain. P&L does not establish predictive power or dependable future returns.
 
-**Data use and permissions:** [London Strategic Edge](https://londonstrategicedge.com) granted project-specific permission to share the requested derived statistics, charts, and research paper with relevant credit. The underlying historical market data is not redistributed, and no general rights to that data or endorsement are implied. See [data provenance](docs/DATA_PROVENANCE.md) and [security checks](SECURITY.md). The [release checklist](docs/RELEASE_CHECKLIST.md) records pre-publication verification.
+**Publication and data rights:** This repository is public as of the October 28, 2026 review. The project record reports London Strategic Edge support permission for the requested derived statistics, charts, and research paper with relevant credit; the private correspondence was not independently re-authenticated in this cleanup. This is not a general data license or an endorsement, and the underlying historical market data is not redistributed. See [data provenance](docs/DATA_PROVENANCE.md) and [security checks](SECURITY.md). The [release checklist](docs/RELEASE_CHECKLIST.md) distinguishes the current public status from the preserved October 25 preparation record.
 
 **Code licensing:** No public software license has been granted for the original code at this time. A license can be added later by the copyright holder. This does not affect the provider's rights in the source data.
 

@@ -1,6 +1,8 @@
 # Data provenance and publication rights
 
-Updated review: October 15, 2026. **Provider support permission received, conditional on relevant credit. Owner publication approval is still pending.** This update records the support response supplied by the project owner; private correspondence and contact details are retained outside this repository.
+Current publication review: **October 28, 2026. This repository is public.** The October 15 rights review recorded provider support permission, conditional on relevant credit, based on a response supplied by the project owner. The owner-approval-pending statement belonged to that historical preparation stage and is superseded by the current public status. Private correspondence and contact details remain outside this repository.
+
+The October 28 cleanup preserves that project record; it did not independently inspect or re-authenticate the underlying support correspondence. No new provider permission, broader data license, upstream rights clearance or endorsement is established by this review.
 
 ## Provenance
 
@@ -27,10 +29,10 @@ The rendered terms were inspected because the text-only page omitted substantive
 
 The owner requested permission to publish original code, derived performance charts, statistics and the research paper, explicitly excluding redistribution of the raw historical dataset. London Strategic Edge support agreed subject to relevant credit. This records permission for the requested project materials, not a general dataset license or provider endorsement.
 
-Historical EUR/JPY market data provided by [London Strategic Edge](https://londonstrategicedge.com). Derived research results and visualizations are presented with permission and attribution. Raw historical price data is not redistributed.
+Historical EUR/JPY market data is attributed to [London Strategic Edge](https://londonstrategicedge.com). The project record reports permission for the requested derived research materials with relevant credit. Raw historical price data is not redistributed.
 
 Credit appears in the README, paper's historical-data section, chart captions and comparison-chart source footers. The support response does not independently certify source prices, resolve the provenance uncertainties above, grant raw-data redistribution rights, or choose a software license for the original code. Free access and the SDK's MIT license are not the basis for this project-specific permission.
 
 No raw CSV, intermediate OHLC or detailed price-level ledger is included. Readers supply an appropriately authorized external CSV. Private email messages, addresses and screenshots are excluded. The supporting correspondence remains private; no provider message was sent by this update task.
 
-Publication still requires the owner's separate approval. Preserve the attribution and current content scope when reviewing that decision; see [release checklist](RELEASE_CHECKLIST.md). No new software license is assigned here.
+The historical October 15 review required a separate owner publication decision. The repository is now public; see the current status and preserved preparation record in the [release checklist](RELEASE_CHECKLIST.md). Preserve the attribution and the restriction on raw-data redistribution. Any expanded use needs its own rights review; the existing project-specific record does not establish permission for new material or uses. No new software license is assigned here.

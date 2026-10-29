@@ -16,14 +16,14 @@ SHA-256 859da294eafa80efeb7ed038484cd01059c3280ac8e045e0c07ab0c02dc640f7
 
 Candle-open timestamps follow existing project documentation. No provider-signed receipt, original terms acceptance record, certified quote side, upstream venue/license chain or independent timestamp certificate was located. Data validation and matching hashes establish reproducibility, not external price accuracy or licensing permission.
 
-## Sources reviewed
+## Sources reviewed in the October 15, 2026 record
 
 - [Provider terms](https://londonstrategicedge.com/terms/), rendered page, marked January 19, 2026: Section 6 allows own research/internal use and restricts redistribution; Section 7 broadly restricts copying, distribution and derivative works without written consent. Sections 8 and 9 qualify accuracy and third-party content.
 - [Official SDK license discussion](https://github.com/londonstrategicedge/lse-data#licence) distinguishes software rights from rights in retrieved data.
 - [SDK MIT license](https://github.com/londonstrategicedge/lse-data/blob/main/LICENSE) licenses that client software, not this dataset.
 - [Provider data page](https://londonstrategicedge.com/data/) describes free access; free access alone does not establish redistribution permission.
 
-The rendered terms were inspected because the text-only page omitted substantive sections. Today's terms do not prove which version governed acquisition.
+The October 15 record reports inspection of the rendered terms because the text-only page omitted substantive sections. Terms viewed later do not prove which version governed acquisition; the original accepted version has not been established.
 
 ## Project-specific permission and attribution
 
